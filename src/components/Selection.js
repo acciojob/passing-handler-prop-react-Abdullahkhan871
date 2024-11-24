@@ -5,10 +5,13 @@ const Selection = (prop) => {
 
   const [selectionStyle, updateSelectionStyle] = useState("");
 
-  console.log(selectionStyle.background);
-
   return (
-    <div className="fix-box" style={{background: selectionStyle.background}} key={uniqkey} onClick={()=>applyColor(updateSelectionStyle)}>
+    <div
+      className="fix-box"
+      style={{ background: selectionStyle.background }}
+      key={uniqkey}
+      onClick={() => applyColor(updateSelectionStyle)}
+    >
       {uniqkey}
     </div>
   );
