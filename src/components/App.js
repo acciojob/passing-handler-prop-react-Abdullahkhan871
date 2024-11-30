@@ -7,19 +7,19 @@ import ColourSelector from "./ColourSelector";
 const colourConfig = [
   {
     key: "blue",
-    label: "Blue",
+    label: "blue",
     classname: "btn-blue",
     background: "rgb(34, 193, 195)",
   },
   {
     key: "orange",
-    label: "Orange",
+    label: "orange",
     classname: "btn-orange",
     background: "rgb(221, 112, 18)",
   },
   {
     key: "green",
-    label: "Green",
+    label: "green",
     classname: "btn-green",
     background: "rgb(44, 209, 88)",
   },
